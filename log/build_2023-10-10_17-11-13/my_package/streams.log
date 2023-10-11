@@ -1,0 +1,33 @@
+[0.041s] Invoking command in '/home/donnylu/dev_ws/build/my_package': /usr/bin/cmake /home/donnylu/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donnylu/dev_ws/install/my_package
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.431s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.750s] -- Detecting C compiler ABI info - done
+[0.761s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.769s] -- Detecting C compile features
+[0.769s] -- Detecting C compile features - done
+[0.769s] -- Detecting CXX compiler ABI info
+[1.112s] -- Detecting CXX compiler ABI info - done
+[1.120s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.121s] -- Detecting CXX compile features
+[1.124s] -- Detecting CXX compile features - done
+[1.200s] -- Configuring incomplete, errors occurred!
+[1.200s] See also "/home/donnylu/dev_ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[1.201s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.201s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.201s]   has asked CMake to find a package configuration file provided by
+[1.202s]   "ament_cmake", but CMake did not find one.
+[1.202s] 
+[1.202s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.202s]   any of the following names:
+[1.202s] 
+[1.202s]     ament_cmakeConfig.cmake
+[1.202s]     ament_cmake-config.cmake
+[1.202s] 
+[1.203s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.203s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.203s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.203s]   has been installed.
+[1.204s] 
+[1.204s] [0m
+[1.204s] Invoked command in '/home/donnylu/dev_ws/build/my_package' returned '1': /usr/bin/cmake /home/donnylu/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donnylu/dev_ws/install/my_package

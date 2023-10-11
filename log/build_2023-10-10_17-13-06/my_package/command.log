@@ -1,0 +1,6 @@
+Invoking command in '/home/donnylu/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/donnylu/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donnylu/dev_ws/install/my_package
+Invoked command in '/home/donnylu/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/donnylu/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donnylu/dev_ws/install/my_package
+Invoking command in '/home/donnylu/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/donnylu/dev_ws/build/my_package -- -j5 -l5
+Invoked command in '/home/donnylu/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/donnylu/dev_ws/build/my_package -- -j5 -l5
+Invoking command in '/home/donnylu/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/donnylu/dev_ws/build/my_package
+Invoked command in '/home/donnylu/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/donnylu/dev_ws/build/my_package

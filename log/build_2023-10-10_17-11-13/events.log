@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.005280] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.006805] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.040076] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.040335] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/donnylu/dev_ws/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/donnylu/dev_ws/install/my_package'], 'cwd': '/home/donnylu/dev_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'donnylu'), ('GIO_MODULE_DIR', '/home/donnylu/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/142/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('HOME', '/home/donnylu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.83.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/142/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/donnylu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/142/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/142/usr/share/code/code'), ('MANAGERPID', '1577'), ('SYSTEMD_EXEC_PID', '1759'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '80544'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'donnylu'), ('JOURNAL_STREAM', '8:25961'), ('_', '/usr/bin/colcon'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'donnylu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rebnoob:@/tmp/.ICE-unix/1719,unix/rebnoob:/tmp/.ICE-unix/1719'), ('GTK_EXE_PREFIX', '/snap/code/142/usr'), ('INVOCATION_ID', '52fb893c79884c8c81be582e81349810'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/142/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ID5HC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-79dd7d3c9d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/donnylu/snap/code/142/.local/share/glib-2.0/schemas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/donnylu/dev_ws/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/donnylu/snap/code/142/.local/share:/home/donnylu/snap/code/142:/snap/code/142/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.102172] (-) TimerEvent: {}
+[0.211325] (-) TimerEvent: {}
+[0.257013] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.314457] (-) TimerEvent: {}
+[0.417391] (-) TimerEvent: {}
+[0.438588] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.489572] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.522660] (-) TimerEvent: {}
+[0.626770] (-) TimerEvent: {}
+[0.727792] (-) TimerEvent: {}
+[0.757672] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.768956] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.776557] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.776943] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.777025] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.829162] (-) TimerEvent: {}
+[0.938122] (-) TimerEvent: {}
+[1.047087] (-) TimerEvent: {}
+[1.119511] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.128109] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.128746] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.131108] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.157688] (-) TimerEvent: {}
+[1.164652] (my_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.207606] (my_package) StdoutLine: {'line': b'See also "/home/donnylu/dev_ws/build/my_package/CMakeFiles/CMakeOutput.log".\n'}
+[1.207973] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.208635] (my_package) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.208714] (my_package) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.209603] (my_package) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.209817] (my_package) StderrLine: {'line': b'\n'}
+[1.209891] (my_package) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.209957] (my_package) StderrLine: {'line': b'  any of the following names:\n'}
+[1.210020] (my_package) StderrLine: {'line': b'\n'}
+[1.210103] (my_package) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.210168] (my_package) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.210259] (my_package) StderrLine: {'line': b'\n'}
+[1.210351] (my_package) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.210459] (my_package) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.210546] (my_package) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.211017] (my_package) StderrLine: {'line': b'  has been installed.\n'}
+[1.211358] (my_package) StderrLine: {'line': b'\n'}
+[1.211452] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[1.211530] (my_package) CommandEnded: {'returncode': 1}
+[1.266006] (-) TimerEvent: {}
+[1.371962] (-) TimerEvent: {}
+[1.373201] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[1.374417] (-) EventReactorShutdown: {}
